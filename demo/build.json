@@ -1,0 +1,8 @@
+{
+    "entry": "./src/index.js",
+    "plugins": [
+        "build-plugin-base",
+        "build-plugin-xml",
+        "build-plugin-csv"
+    ]
+}
