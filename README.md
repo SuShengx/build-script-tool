@@ -2,11 +2,13 @@
  本项目主要功能是可配置的打包脚手架,统一配置公司所有项目的打包脚手架， 比如在公司有很多项目 可能项目和项目之间的依赖不一样，比如a项目需要xml-loader b项目需要ts-loader
 
 # 环境依赖
+```
 node > v16.16.0
 npm  > v8.1.0
+```
 
 # 项目目录结构
-.
+```
 ├── READ.md
 ├── bin                   执行文件
 │   └── build-scripts.js
@@ -33,6 +35,7 @@ npm  > v8.1.0
 │       ├── index.xml
 │       └── test.csv
 └── tsconfig.json
+```
 
 # 使用说明
 
